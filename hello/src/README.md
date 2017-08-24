@@ -1,1 +1,1 @@
-﻿
+﻿=for html <a href="https://travis-ci.org/tvabramov/cppsiberia"><img src="https://travis-ci.org/tvabramov/cppsiberia.svg?branch=master"></a>

@@ -1,0 +1,8 @@
+﻿dist: trusty
+language: cpp
+
+script:
+mkdir build && cd build
+cmake ..
+cmake --build .
+./hello
