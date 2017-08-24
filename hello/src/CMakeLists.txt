@@ -3,7 +3,7 @@
 project(hello CXX)
 
 set(${PROJECT_NAME}_SRC
-	D:/projects/cppsiberia/hello/src/main.cpp
+	src/main.cpp
 )
 
 add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_SRC})
