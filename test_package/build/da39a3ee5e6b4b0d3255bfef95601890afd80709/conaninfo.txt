@@ -1,0 +1,42 @@
+[settings]
+    arch=x86
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.9
+    os=Linux
+
+[requires]
+    gtest/1.Y.Z
+    hello/0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.9
+    os=Linux
+
+[full_requires]
+    gtest/1.8.0@lasote/stable:2760e30a121bf3f1c577193786d4b3ef425f913d
+    hello/0.1@demo/testing:2760e30a121bf3f1c577193786d4b3ef425f913d
+
+[full_options]
+    gtest:cygwin_msvc=False
+    gtest:fpic=False
+    gtest:no_gmock=False
+    gtest:no_main=False
+    gtest:shared=False
+
+[scope]
+    dev=True
+
+[recipe_hash]
+
+
+[env]
+
